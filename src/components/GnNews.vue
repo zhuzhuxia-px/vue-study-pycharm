@@ -45,5 +45,6 @@
 <style scoped>
 .neirong{
   line-height: 30px;
+  color: red;
 }
 </style>
