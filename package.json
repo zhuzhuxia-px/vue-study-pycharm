@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "element-ui": "^2.15.1",
+    "jQuery": "^1.7.4",
     "vue": "^2.5.2",
+    "vue-resource": "^1.5.2",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

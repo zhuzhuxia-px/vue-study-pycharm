@@ -57,17 +57,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   * {
     margin: 0;
     padding: 0;
     list-style: none;
   }
   .slide {
-    width: 1024px;
+    /*width: 1024px;*/
     height: 320px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: -1px;
+    /*padding: 0px;*/
     overflow: hidden;
     position: relative;
   }
@@ -82,7 +83,7 @@ export default {
     width: 1024px;
     height: 320px;
   }
-  .bar {
+  .bullet {
     position: absolute;
     width: 100%;
     bottom: 10px;
@@ -90,10 +91,11 @@ export default {
     z-index: 10;
     text-align: center;
   }
-  .bar span {
-    width: 20px;
+  .bullet span {
+    width: 5px;
     height: 5px;
     border: 1px solid;
+    border-radius: 120px;
     background: white;
     display: inline-block;
     margin-right: 10px;

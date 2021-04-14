@@ -6,6 +6,9 @@ import router from './router'
 import './resrt.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import VueResource from 'vue-resource';
+
+Vue.use(VueResource);
 
 Vue.use(ElementUI);
 Vue.config.productionTip = false

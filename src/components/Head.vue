@@ -10,10 +10,10 @@
               active-text-color="#ffd04b"
               router
       >
-              <el-menu-item index="home">首页</el-menu-item>
-              <el-submenu index="news">
+              <el-menu-item index="/home">首页</el-menu-item>
+              <el-submenu index="/news">
                 <template slot="title">新闻</template>
-                <el-menu-item index="news">国内新闻</el-menu-item>
+                <el-menu-item index="/news">国内新闻</el-menu-item>
                 <el-menu-item index="2-2">国际新闻</el-menu-item>
                 <el-menu-item index="2-3">选项3</el-menu-item>
                 <el-submenu index="2-4">
@@ -24,7 +24,7 @@
                 </el-submenu>
               </el-submenu>
               <el-menu-item index="3">关于我们</el-menu-item>
-              <el-menu-item index="user">用户中心</el-menu-item>
+              <el-menu-item index="/user">用户中心</el-menu-item>
       </el-menu>
     </div>
 </template>

@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from '../components/Home'
 import News from '../components/News'
 import User from '../components/User'
+import GnNews from '../components/GnNews'
+
 
 
 
@@ -24,6 +26,11 @@ export default new Router({
       path: '/news',
       name: 'News',
       component: News
+    },
+    {
+      path: '/GnNews/:hhh',
+      name: 'GnNews',
+      component: GnNews
     },
     {
       path: '/user',
