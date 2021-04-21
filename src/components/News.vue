@@ -4,7 +4,7 @@
       <!--<v-gnNews></v-gnNews>-->
       <ul>
         <li v-for="(gnNew,gnNewkey) in GnNewsList">
-          <router-link :to="'/GnNews/'+gnNew.aid">
+          <router-link :to="'/gnnews/'+gnNew.aid">
             {{gnNewkey}}..{{gnNew.title}}
           </router-link>
           <br>

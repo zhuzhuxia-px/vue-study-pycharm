@@ -23,7 +23,7 @@
                   <el-menu-item index="2-4-3">选项3</el-menu-item>
                 </el-submenu>
               </el-submenu>
-              <el-menu-item index="3">关于我们</el-menu-item>
+              <el-menu-item index="/aboutus">关于我们</el-menu-item>
               <el-menu-item index="/user">用户中心</el-menu-item>
       </el-menu>
     </div>

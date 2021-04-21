@@ -7,11 +7,14 @@ import './resrt.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import VueResource from 'vue-resource';
+import * as echarts from 'echarts'
+
+Vue.prototype.$echarts = echarts;
 
 Vue.use(VueResource);
 
 Vue.use(ElementUI);
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
@@ -19,4 +22,4 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
+});

@@ -4,6 +4,7 @@ import Home from '../components/Home'
 import News from '../components/News'
 import User from '../components/User'
 import GnNews from '../components/GnNews'
+import AboutUs from '../components/AboutUs'
 
 
 
@@ -18,6 +19,7 @@ export default new Router({
       redirect:"/home"
     },
     {
+      // 此处path路径大小写不敏感
       path: '/home',
       name: 'Home',
       component: Home
@@ -31,6 +33,11 @@ export default new Router({
       path: '/GnNews/:hhh',
       name: 'GnNews',
       component: GnNews
+    },
+    {
+      path: '/AboutUs',
+      name: 'AboutUs',
+      component: AboutUs
     },
     {
       path: '/user',
