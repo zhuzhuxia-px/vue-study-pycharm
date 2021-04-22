@@ -40,7 +40,7 @@
               yAxis: {},
               series: [{
                 name: '销量',
-                type: 'bar',
+                type: 'Bar',
                 data: [5, 20, 36, 10, 10, 20]
               }]
             }
