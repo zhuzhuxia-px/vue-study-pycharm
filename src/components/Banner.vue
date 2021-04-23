@@ -24,7 +24,7 @@ export default {
       timer: null, //定时器
       mark: 0, //比对图片索引的变量
       imgArray: [
-       './../static/bannerphoto/bn1.jpg',
+       '../../static/bannerphoto/bn1.jpg',
         './../static/bannerphoto/bn2.jpg',
         './../static/bannerphoto/bn3.jpg',
         './../static/bannerphoto/bn4.jpg'
